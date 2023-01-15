@@ -1,0 +1,120 @@
+body {
+  background-image: url("imagesBg.jpg");
+  background-repeat: no-repeat;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  font-family: cursive;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #bbb;
+  color: black;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.topping_div {
+  float: center;
+  width: 60%;
+  padding: 5px;
+}
+
+.img_div {
+  float: left;
+  width: 50%;
+  padding: 1px;
+}
+.menu_div {
+  float: right;
+  width: 50%;
+  padding: 50px;
+  color: honeydew;
+  font-size: 25px;
+  font-family: cursive;
+}
+#menu_list {
+  background-color: #f5c71a;
+  color: black;
+  width: 200px;
+  border: none;
+}
+
+.newRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.block1 {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+.block2 {
+  float: left;
+  width: 80%;
+  padding: 5px;
+  color: honeydew;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+#add_toppings {
+  /* padding-left:30px; */
+  width: 150px;
+  height: 60px;
+  border: none;
+  background-color: #e2062c;
+  color: black;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+#add_item {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  width: 80%;
+  height: 50px;
+  color: #ffffff;
+  background: none;
+  border: none;
+  border-bottom: 3px solid rgb(2, 253, 56);
+  outline: none;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 1.5s 1.5s ease;
+  text-indent: -100%;
+  opacity: 1;
+  color: rgb(2, 253, 56);
+}
+
+#im1 {
+  width: 100px;
+  height: 80px;
+}
